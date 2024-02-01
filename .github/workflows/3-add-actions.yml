@@ -58,7 +58,7 @@ jobs:
       - name: Check workflow contents, steps
         uses: skills/action-check-file@v1
         with:
-          file: ".github/workflows/welcome.yml"
+          file: ".github/workflows/0-welcome.yml"
           search: "steps:"
 
       # In README.md, switch step 3 for step 4.
